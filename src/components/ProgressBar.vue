@@ -1,7 +1,7 @@
 <template>
   <div class="hidden"
-  :style="{ 'width': '0%' }"
-  />
+    :style="{ 'width': '0%' }"
+  ></div>
 </template>
 
 <script>
