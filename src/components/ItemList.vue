@@ -1,5 +1,6 @@
 <template>
   <div class="item-list">
+    <h1>Vue Hacker News</h1>
     <item
       v-for="item in displayItems"
       :key="item.id"
@@ -17,7 +18,7 @@ export default {
   },
   data () {
     return {
-      displayItems: window.items // #B
+      displayItems: window.items
     }
   }
 }
